@@ -1,0 +1,27 @@
+/* ProductPage.css */
+
+/* Styling for product cards */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Media query for desktop view */
+  @media (min-width: 768px) {
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Three products per row */
+      gap: 16px; /* Gap between products */
+    }
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 767px) {
+    .product-list {
+      display: block; /* One product per row */
+    }
+  }
+  

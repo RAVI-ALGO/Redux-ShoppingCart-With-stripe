@@ -1,0 +1,20 @@
+/* Customize the scrollbar for webkit-based browsers */
+/* This code applies to Chrome, Safari, and other webkit-based browsers */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+    background-color: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: skyblue; /* Set the color of the scrollbar thumb */
+    border-radius: 10px; /* Add rounded corners to the scrollbar thumb */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change the color on hover */
+  }
+  
